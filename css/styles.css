@@ -5,7 +5,6 @@
 
 .menu {
   grid-area: menu;
-  width: 12.5%;
 }
 
 .main {
@@ -27,9 +26,9 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header header header header'
-    'menu main main main main main main main right'
-    'menu footer footer footer footer footer footer footer footer';
+    'header header header header header header header header header header header header header'
+    'menu main main main main main main main main main main right right'
+    'menu footer footer footer footer footer footer footer footer footer footer footer footer';
   grid-gap: 1%;
   /*background-color: #2196F3;*/
   padding: 1%;
